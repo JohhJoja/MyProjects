@@ -1,0 +1,158 @@
+body{
+  background: #eee;
+  font-size: 20px;
+}
+
+.block_form {
+ text-align: center;
+ margin-top: 100px;
+ }
+
+.title {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.input {
+ margin-bottom: 15px;
+}
+
+.check_box{
+  padding: 0 0 0 70px;
+  position: relative;
+  transition: all 0.3s ease 0s;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 100px;
+
+}
+
+.check_box.active{
+ color: black;
+ transition: all 0.3s ease 0s;
+}
+
+.check_box.active::before{
+ background: #4fbb65;
+ transition: all 0.3s ease 0s;
+}
+
+.check_box.active::after{
+ background: #4fbb65;
+ left:25px;
+ transition: all 0.3s ease 0s;
+}
+
+.check_box::before{
+  content: "";
+  width: 50px;
+  height: 20px;
+  border-radius: 20px;
+  background: #bfc0c4;
+  position: absolute;
+  top:0;
+  left: 0;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+  transition: all 0.3s ease 0s;
+}
+
+.check_box::after{
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #bfc0c4;
+  position: absolute;
+  top:-5px;
+  left: 0;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+  transition: all 0.3s ease 0s;
+}
+
+.check_box input{
+ display: none;
+}
+
+.rediobutton_item{
+  padding: 0 0 0 70px;
+  position: relative;
+  transition: all 0.3s ease 0s;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  width: 100px;
+}
+
+.rediobutton_item.active{
+ color: black;
+ transition: all 0.3s ease 0s;
+}
+
+.rediobutton_item.active::before{
+ transition: all 0.3s ease 0s;
+}
+
+.rediobutton_item::before{
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background: #bfc0c4;
+  position: absolute;
+  top:0;
+  left: 10px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+  transition: all 0.3s ease 0s;
+}
+
+.rediobutton_item.active::after{
+ background: #4fbb65;
+ transition: all 0.3s ease 0s;
+}
+
+.rediobutton_item::after{
+  content: "";
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  background: #bfc0c4;
+  position: absolute;
+  top:3px;
+  left: 13px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+  transition: all 0.3s ease 0s;
+}
+
+.rediobutton_item input {
+ display: none;
+}
+
+button{
+  width: 380px;
+  height: 60px;
+  font-size: 24px;
+  letter-spacing: 8px;
+  border-radius: 30px;
+  background: silver;
+  border: 3px solid grey;
+  transition-duration: 1s;
+}
+
+button.active{
+  background: #4fbb65;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
