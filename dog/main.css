@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+}
+.wall{
+    /* display: inline-block; */
+    height: 100px;
+    width: 400px;
+    background: white;
+    position: absolute;
+    top:0;
+    right: 56px;
+    transition-duration: 3s;
+    z-index: 5;
+}
+.back {
+    display: inline-block;
+    position: relative;
+    transition-duration: margin-top 0s margin-left 0.1s;
+    z-index: 10;
+    /* animation-timing-function: ease-in;
+    animation-duration: 0.5s;
+    animation-name: move;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+}
+.front {
+    display: inline-block;
+    margin-left: -5px;
+    transition-duration: margin-top 0s margin-left 0.1s;
+    position: relative;
+    z-index: 1;
+    /* animation-timing-function: ease-in;
+    animation-duration: 0.2s;
+    animation-name: move;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+}
+
+@keyframes move {
+    0%{
+        top:0px;
+    }
+    100%{
+        top:10px;
+    }
+}
