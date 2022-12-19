@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.img_wrapper {
+    /* position: absolute;
+    height: 200vh;
+    top:0;
+    left:0; */
+}
+
+.img_wrapper img{
+    position: absolute;
+    /* top:300px;
+    left:0; */
+    height: 200%;
+    width: 270%;
+    z-index: 1;
+}
+.text{
+    /* position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+    width: 200%;
+    height: 200%; */
+    background: url(https://pm1.narvii.com/7241/3171b41d190f6c8a12203999380af07e5d3d9568r1-1080-1002v2_hq.jpg);
+    /* position: absolute;
+    top:0;
+    left:350px; */
+    z-index: 0;
+    padding: 20px;
+
+}
